@@ -4,7 +4,7 @@ from mplsoccer import Pitch
 import streamlit as st
 
 # Load the CSV data
-df = pd.read_csv("https://github.com/adnaaan433/First-App/blob/main/Man%20City_vs_Man%20Utd_EventData.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/adnaaan433/First-App/main/Man%20City_vs_Man%20Utd_EventData.csv")
 
 # Define the plot function
 def plot_pass(ax, team_name):
